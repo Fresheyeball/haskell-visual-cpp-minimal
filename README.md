@@ -37,3 +37,5 @@ int main()
 	return 0; // Set a breakpoint here or something so you can see the result
 }
 ```
+
+You will also need to ensure that your `VC++ Directories` contains Haskell Platform, and that Your `Linker > General > Input` has `Foozle.lib`.
