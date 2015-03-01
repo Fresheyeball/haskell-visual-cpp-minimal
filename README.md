@@ -12,7 +12,7 @@ Needed to learn how to do this. Hopefully this will help someone out there tryin
 - Windows
 - Patience
 
-### Usage
+### Usage:
 
 Simply run `packageHS.bat` to get the what we need as `.h` and `.lib` files.
 
