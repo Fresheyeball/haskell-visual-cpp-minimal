@@ -1,4 +1,4 @@
-# This is a minial complete example of Haskell being called from Visual C++
+# This is a minimal complete example of Haskell being called from Visual C++
 (or atleast its intended to be)
 
 ### Motivation:
