@@ -24,7 +24,7 @@ lib /DEF:Foozle.def /OUT:Foozle.lib /MACHINE:x64
 ```
 
 1. Compile `Foozle.hs` into `Foozle.o` and `Foozle_stub.h`
-2. Compile `HsStartEnd.c` into `HsStartEnd.o` and `HsStartEnd.h` this is necissary because the commands to start and stop the STG (Spineless Tagless Graph Machine, (The thing that executes Haskell code)) cannot be called directly from C++, but they can be called for C.
+2. Compile `HsStartEnd.c` into `HsStartEnd.o` and `HsStartEnd.h` this is necissary because the commands to start and stop the STG (Spineless Tagless Graph Machine, (The thing that executes Haskell code)) cannot be called directly from C++, but they can be called form C.
 3. Compile it all together into `Foozle.dll`
 4. Generate `Foozle.lib` and `Foozle.exp` based on `Foozle.def` which can finally be called from C++
 
