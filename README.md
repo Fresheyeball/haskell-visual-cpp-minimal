@@ -39,3 +39,6 @@ int main()
 ```
 
 You will also need to ensure that your `VC++ Directories` contains Haskell Platform, and that Your `Linker > General > Input` has `Foozle.lib`.
+
+![Adding in the Haskell Platform header files](http://s27.postimg.org/uoziyfm1v/HSLink.png)
+![Adding Foozle.lib to Linker](http://s10.postimg.org/qfj7syoex/Linker.png)
