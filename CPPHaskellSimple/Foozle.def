@@ -1,0 +1,5 @@
+LIBRARY Foozle
+EXPORTS
+	foo
+	HsStart
+	HsEnd
